@@ -1,6 +1,6 @@
 # kenken-solver
 
-A KenKen solver in Prolog. Given a list of constraints representing an NxN KenKen board, the solver is able to return an NxN board which solves the puzzle. 
+A KenKen solver in Prolog. Given a list of constraints representing an NxN KenKen puzzle, the solver is able to return a solved NxN board. 
 
 For example:
 
@@ -52,4 +52,4 @@ T = [[5,6,3,4,1,2],
 
 where T is the solved board. 
 
-kenken.pl makes use of Prolog's convenient finite domain to speed up calculations. plain_kenken.pl avoids using finite domain at the expense of better performance.
+kenken.pl makes use of Prolog's convenient Finite Domain variables to speed up calculations. plain_kenken.pl avoids using Finite Domain at the cost of better performance.
